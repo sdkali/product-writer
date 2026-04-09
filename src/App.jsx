@@ -241,7 +241,7 @@ export default function ProductWriter() {
         <header style={{ paddingTop: 40, paddingBottom: 24, display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}>
           <div>
             <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 8 }}>
-              <span style={{ fontSize: 10, padding: "2px 8px", background: "#6c5ce722", border: "1px solid #6c5ce744", color: "#6c5ce7", borderRadius: 4, fontFamily: "monospace", letterSpacing: 1 }}>BETA</span>
+            
               {data.isPro && <span style={{ fontSize: 10, padding: "2px 8px", background: "#f7c94822", border: "1px solid #f7c94844", color: "#f7c948", borderRadius: 4, fontFamily: "monospace" }}>PRO</span>}
             </div>
             <h1 style={{ fontSize: 26, fontWeight: 700, margin: 0, letterSpacing: -0.5 }}>
