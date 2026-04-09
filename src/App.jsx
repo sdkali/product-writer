@@ -251,7 +251,7 @@ export default function ProductWriter() {
           </div>
           <div style={{ textAlign: "right" }}>
             <div style={{ fontSize: 11, color: "#666", fontFamily: "monospace" }}>{typeof remaining === "number" ? `${remaining}/${FREE_LIMIT} free left` : "Unlimited"}</div>
-            {!data.isPro && <button onClick={() => setShowUpgrade(true)} style={{ marginTop: 4, background: "linear-gradient(135deg, #6c5ce7, #e94560)", border: "none", color: "#fff", padding: "6px 14px", fontSize: 11, fontWeight: 600, cursor: "pointer", borderRadius: 4 }}>Upgrade $9/mo</button>}
+            {!data.isPro && <button onClick={() => window.open("https://codeandcraftie.gumroad.com/l/Productwriterpro", "_blank")} style={{ marginTop: 4, background: "linear-gradient(135deg, #6c5ce7, #e94560)", border: "none", color: "#fff", padding: "6px 14px", fontSize: 11, fontWeight: 600, cursor: "pointer", borderRadius: 4 }}>Upgrade $9/mo</button>}
           </div>
         </header>
 
@@ -478,7 +478,7 @@ export default function ProductWriter() {
                   <div>Priority support</div>
                 </div>
               </div>
-              <button style={{ width: "100%", padding: "14px", background: "linear-gradient(135deg, #6c5ce7, #e94560)", color: "#fff", border: "none", fontSize: 14, fontWeight: 700, cursor: "pointer", borderRadius: 6 }}>
+              <button onClick={() => window.open("https://codeandcraftie.gumroad.com/l/Productwriterpro", "_blank")} style={{ width: "100%", padding: "14px", background: "linear-gradient(135deg, #6c5ce7, #e94560)", color: "#fff", border: "none", fontSize: 14, fontWeight: 700, cursor: "pointer", borderRadius: 6 }}>
                 Start Free 7-Day Trial
               </button>
               <p style={{ textAlign: "center", fontSize: 11, color: "#555", marginTop: 10 }}>Cancel anytime. No questions asked.</p>
